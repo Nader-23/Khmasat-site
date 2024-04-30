@@ -1,0 +1,486 @@
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    height: 54px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.div1 {
+    direction: rtl;
+}
+
+.div2 {
+    direction: rtl;
+    position: relative;
+    bottom: 21px;
+}
+
+i {
+    color: #efefef;
+    position: relative;
+    top: 18px;
+    margin-left: 11px;
+    margin-right: 26px;
+    font-size: 12px;
+
+}
+
+h3 {
+    color: #efefef;
+    position: relative;
+    bottom: 5px;
+    font-size: 11pt;
+    font-weight: normal;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+
+.im3 {
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 100px;
+    height: 36px;
+    width: 36px;
+
+}
+
+.im4 {
+    width: 150px;
+    height: 30px;
+    position: relative;
+    padding: 12px;
+    float: right;
+    background-color: #444;
+    line-height: 0;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 100
+}
+
+
+.im5 {
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.inp1 {
+    padding-left: 540px;
+    padding-bottom: 50px;
+    text-align: right;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+}
+
+.div6 {
+    position: absolute;
+    top: 170px;
+    left: 280px;
+
+}
+
+.div-input {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+}
+
+.head1 {
+    font-size: 29pt;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+
+.head2 {
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.button1 {
+    background-color: green;
+    color: white;
+    border: #52b035;
+    height: 50px;
+    width: 70px;
+    font-size: 14pt;
+    position: absolute;
+    bottom: 10px;
+    left: 9px;
+    opacity: 0.5;}
+.button1:hover {opacity: 1;
+}
+
+.sec3 {
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.head3 {
+    color: #52b035;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-top: 80px;
+}
+
+.list1 {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    margin: 20px;
+}
+
+.flex1 {
+    background-size: cover;
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/bussiness-2c1f54b0bd848ce232a972323a799f3abe75235eb4f00fb0180d4ede6ac390dd.jpg");
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 16pt;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.flex2 {
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/development-bb416454cb6338d96f266211eb8d2e10fc669ddb8470ee95eef00c841df903e8.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 16pt;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.flex3 {
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/social-5598c2401b6ca90eda3df7c69c8c4727dcc937f8cc995096456d8a8773f4d324.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 16pt;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.flex4 {
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/remote-64132428314c98f2e8abe5e4b98b3a03f215fdd04788b533f52171026fb30d70.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 16pt;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.list2 {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    margin: 20px;
+}
+
+.flex5 {
+    background-size: cover;
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/video-9b7fb5a1ae97544b32573e1625c5b12bb86e5fff9abfe4ae5ba7371ea86c41ae.jpg");
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 16pt;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.flex6 {
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/design-17881dc3ab0928311acc42761ff77c7e9a09e077c326fbc5d373e4fe1b5ad397.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 16pt;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.flex7 {
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/audio-93508fbd03c4ca1a20eabc10ecbf7924161d61e7139878bc93641c310d195e13.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 16pt;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.flex8 {
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/translate-ad-ad754e21fea72c69a11e1000903e1f848812bc20e3f1033d6e44f15c249dcd61.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 16pt;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.sec4 {
+    background-color: #efefef;
+    background-size: cover;
+    height: 1950px;
+    width: 100%;
+}
+
+.div-sec4 {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.head-sec4 {
+    font-size: 16pt;
+    margin-top: 80px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.b-sec4 {
+    width: 105px;
+    height: 40px;
+    margin-top: 70px;
+    text-align: left;
+    font-size: 14pt;
+    color: #52b035;
+    border-width: 1px;
+    border-color: #52b035;
+    background-color: #efefef;
+    font-weight: normal;
+}
+
+.subsection1 {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+
+}
+
+.small-img11 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    right: 265px;
+    background-color: white;
+}
+
+.big-img11 {
+    width: 290px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.subhead11 {
+    position: relative;
+    margin-right: 10px;
+    bottom: 50px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.subhead21 {
+    position: relative;
+    margin-right: 9px;
+    bottom: 70px;
+    font-size: 10pt;
+    color: #3e3d3d;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.star1 {
+    position: relative;
+    margin-right: 25px;
+    bottom: 100px;
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.subhead41 {
+    position: relative;
+    margin-right: 12px;
+    bottom: 100px;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.subsction-repeat1 {
+    margin-top: -90px;
+}
+
+.sec5 {
+    background-color: white;
+    height: 400px;
+}
+
+.list3 {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.dt-header {
+    font-size: 12pt;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+
+.dt-suheader {
+    font-size: 12pt;
+    margin-bottom: 15px;
+    color: #444;
+    font-weight: normal;
+}
+
+.dt-img {
+    margin-bottom: 50px;
+    position: relative;
+    left: 20px;
+}
+
+.dt-header2 {
+    font-size: 12pt;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.dt-img1 {
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+.sec6 {
+    background-color: #efefef;
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+.sec6-header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.sec6-head {
+    margin-right: 15px;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+
+.sec6-header1 {
+    direction: ltr;
+    font-size: 8pt;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-weight: 5px;
+    font-weight: 10;
+    color: #444;
+}
+
+.sec7 {
+    background-color: white;
+    height: 250px;
+}
+
+.sec7-img {
+    color: black;
+    width: 150px;
+    position: relative;
+    left: 530px;
+    margin-top: 40px;
+
+}
+
+.sec7-biglist {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+.sec7-head {
+    font-size: 10pt;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.sec7-subhead {
+    font-size: 9pt;
+    font-weight: lighter;
+    color: #444;
+
+}

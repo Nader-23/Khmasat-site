@@ -1,0 +1,47 @@
+
+
+.overlay-button {
+    position: absolute;
+    padding: 10px 10px;
+    font-size: 16px;
+    
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    color: white;
+    background-color: green;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    text-align: center;
+    bottom: 20px;
+  }
+
+.div1{
+    position: relative;
+    padding: 30px 30px;
+    font-size: 19px;
+    
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    color: white;
+    background-color: brown;
+    opacity: 0.4;
+   
+    
+    
+  
+}
+
+.div2{
+    position: relative;
+   
+    text-align: center;
+}
+
+
+   
+  
+  
